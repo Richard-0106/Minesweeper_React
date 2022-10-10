@@ -1,13 +1,26 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.App{
+  display:grid;
+  place-items: center;
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.mezo-tarolo{
+  width: 700px;
+  aspect-ratio: 1/1;
+  background-color: blue;
+  display:grid;
+  place-items: center;
+  grid-template-columns: repeat(20,1fr);
+  background-color: blue;
+}
+.mezo{
+  width:31.5px;
+  height:31.5px;
+  background-color: grey;
+  display:grid;
+  place-items: center;
+}
+.red{
+  background-color: red;
+}
+.green{
+  background-color: green;
 }
