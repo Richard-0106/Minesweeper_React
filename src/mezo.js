@@ -1,5 +1,5 @@
 import React from 'react';
-
+//rfce
 const Mezo = (props) => {
     const itemClass = props.bomba && props.kattintva ? "red" : !props.bomba && props.kattintva ? "green" : ""
     return (
